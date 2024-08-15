@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.buttons {
+  width: 83.33px;
+  height: 50px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 250px;
+}
+
+.orange-bg {
+  background-color: #ffa500;
+}
+
+.buttons:last-child {
+  width: 100%;
+}
+
+.input-value {
+  width: 250px;
+  height: 50px;
+  text-align: end;
+  padding: 10px;
+  font-size: large;
+  background-color: #03853e;
+}
+
+h1 {
+  text-align: center;
+}
